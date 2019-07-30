@@ -1,3 +1,113 @@
+body{
+    font-family: 'Roboto', sans-serif;
+      background: url(imgs/haunts_no_text.png) center center no-repeat;
+      background-attachment: fixed;
+      background-size:50% auto;
+     
+      
+}
+
+.scroll{
+    animation: scroll_anim 30s linear 1;
+}
+
+@keyframes scroll_anim{
+    0% {transform: translateY(50%);}
+    100% {transform: translateY(-100%);}
+}
+
+
+
+
 #main-heading h1{
-    font-family: 'Merriweather', serif;
+    font-family: 'Crimson Text', serif;
+    /* font-family: 'Merriweather'; */
+    font-size: 15vw; 
+    margin-bottom: 0;
+    line-height: .9;
+    background: -webkit-linear-gradient(#121b74, #e42c64);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.top-row{
+    height: 100vh;
+    box-sizing: border-box;
+    padding-top: 15%;
+    text-align: right;
+    
+    
+}
+
+p{
+    display: inline;
+}
+
+li{
+    list-style: none;
+    
+}
+
+li:hover{
+    color: #e3a0af;
+}
+
+.people{
+    margin-left: 20%;
+    
+}
+
+.info p{
+    display: block;
+    line-height: 1.2;
+}
+
+.info{
+    text-align: left;
+}
+
+.info-row{
+
+    text-align: left;
+    margin-top: 30px;
+}
+
+.subtitles{
+    text-align: right;
+    padding-right: 15px;
+}
+
+.photos img{
+    width: 75%;
+}
+
+.credit{
+    font-size: 14px;
+    font-family: 'Crimson Text';
+    text-align: right;
+    padding-right: 10px;
+
+}
+
+.credit a {
+    color: #ffb6b9;
+}
+
+.credit a:hover{
+    color: #8ac6d1;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 991px){
+    #photo{
+        display: none;
+    }
+
+    #main-heading h1{
+        font-size: 20vw;
+    }
+
+
+
+
 }
