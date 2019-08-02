@@ -113,6 +113,11 @@ li:hover{
     text-decoration: none;
 }
 
+#play-button:hover{
+    color: #ffb6b9;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 991px){
     #photo{
         display: none;
