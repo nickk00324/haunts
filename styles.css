@@ -22,7 +22,7 @@ body:before {
 }
 
 .scroll{
-    animation: scroll_anim 30s linear 1;
+    /* animation: scroll_anim 30s linear 1; */
 }
 
 @keyframes scroll_anim{
@@ -130,4 +130,11 @@ li:hover{
 
 
 
+}
+
+
+
+.performance-schedule{
+    text-align: left;
+    padding-top: 30px;
 }
